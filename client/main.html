@@ -1,0 +1,66 @@
+<head>
+  <title>demochatbot</title>
+  <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+  <meta name="viewport" content="initial-scale=1, minimal-ui, maximum-scale=1, minimum-scale=1" />
+  <style>
+    .cuadroblanco {
+      position: absolute;
+      width: 346px;
+      height: 32px;
+      background-color: white;
+      top: 80px;
+      left: 2px;
+    }
+    
+  </style>
+
+
+
+</head>
+
+<body>
+  <div class="container">
+      <h1>Bienvenidos a Demo ChatBot!</h1>
+      <h2>Bus Vitivinícola!</h2>
+    <div class="row">
+      <div class="col-sm-4" style="text-align: justify;">
+        <p>Bus Vitivinícola, sale desde la Ciudad de Mendoza “Capital Internacional del Vino” para recorrer en modalidad Hop
+          On & Hop Off Los Caminos del Vino y Rutas Gastronómicas</p>
+        <p>Visitando Lujan de Cuyo, Maipú, y Valle de Uco</p>
+      </div>
+      <div class="col-sm-6">
+        <div style="width:350; height:430; position: relative;">
+          <div class="cuadroblanco"></div>
+          <iframe id="chat" width="350" height="430" src="https://console.dialogflow.com/api-client/demo/embedded/busvitivinicola">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<template name="hello">
+
+
+
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
+
+<template name="info">
+  <h2>Learn Meteor!</h2>
+  <ul>
+    <li>
+      <a href="https://www.meteor.com/try" target="_blank">Do the Tutorial</a>
+    </li>
+    <li>
+      <a href="http://guide.meteor.com" target="_blank">Follow the Guide</a>
+    </li>
+    <li>
+      <a href="https://docs.meteor.com" target="_blank">Read the Docs</a>
+    </li>
+    <li>
+      <a href="https://forums.meteor.com" target="_blank">Discussions</a>
+    </li>
+  </ul>
+</template>
